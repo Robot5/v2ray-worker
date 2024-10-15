@@ -14,7 +14,7 @@ jobs:
           node-version: 18
           cache: 'npm'
       - run: npm i
-      - run: sed -i s/KV_NAME/${{ secrets.KV_NAME }}/g wrangler.toml
+      - run: sed -i s/9a3e98bf263a4e0cb11d5736be6a1a6e/${{ secrets.KV_NAME }}/g wrangler.toml
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
