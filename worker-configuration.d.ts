@@ -1,6 +1,6 @@
 interface Env {
 	// Example binding to KV. Learn more at https://developers.cloudflare.com/workers/runtime-apis/kv/
-	MY_KV_NAMESPACE: 9a3e98bf263a4e0cb11d5736be6a1a6e;
+	// MY_KV_NAMESPACE: 9a3e98bf263a4e0cb11d5736be6a1111;
 	//
 	// Example binding to Durable Object. Learn more at https://developers.cloudflare.com/workers/runtime-apis/durable-objects/
 	// MY_DURABLE_OBJECT: DurableObjectNamespace;
